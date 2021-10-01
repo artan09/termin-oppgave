@@ -1,6 +1,23 @@
+
+/*global*/
 *{
-  margin: 0;
-  padding: 0;
+ box-sizing: border-box;
+}
+
+html{
+font-size: 14px;
+font-family: "titillium web",sans-serif;
+}
+
+a{
+color: #5CD153;
+font-weight: bolder;
+text-decoration: none;
+}
+
+h1{
+font-size: 16px;
+font-weight: bolder;
 }
 
 body{
@@ -10,13 +27,42 @@ body{
   background-position: center;
 }
 
-.top{
-    float: right;
-    position: absolute;
-    bottom: 75%;
-    right: 1px;
-    cursor: pointer;
-    width: 19%;
+/* home page styling*/
+
+
+.container{
+
+margin: 20px;
+padding: 20px;
+
+}
+
+.subforum{
+
+margin-top: 20px;
+
+
+}
+
+.subforum-title{
+  background-color:#078C03;
+  padding: 5px;
+  border-radius: 5px;
+  margin:4px;
+  width: 80%;
+}
+
+.subforum-row{
+ display: grid;
+ grid-template-columns: 7% 60% 13% 20%;
+ 
+}
+
+.subforum-column{
+  padding: 10px;
+  margin:4px;
+  border-radius: 5px;
+  background-color:#111314;
 }
 
 #tagline{
@@ -25,13 +71,22 @@ margin-left: 42px;
 margin-bottom: -20px;
 }
 
+.top{
+    float: right;
+    position: absolute;
+    bottom: 72%;
+    right: 1px;
+    cursor: pointer;
+    width: 19%;
+}
+
 #win{
   position: absolute;
   background-color: rgb(15, 15, 56);
   bottom: 75%;
   right: 45%;
   border: none;
-  padding: 15px 32px;
+  padding: 20px 32px;
   text-align: center;
   display: inline-block;
   font-size: 16px;
