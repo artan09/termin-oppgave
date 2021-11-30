@@ -33,7 +33,7 @@
 .button {
     display: inline-block;
     border-radius: 4px;
-    background-color: #f4511e;
+    background-color: #48D951;
     border: none;
     color: #FFFFFF;
     text-align: center;
@@ -43,7 +43,7 @@
     transition: all 0.5s;
     cursor: pointer;
     margin: 5px;
-    
+    margin-left: 500px;
   }
   
   .button span {
