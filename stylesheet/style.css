@@ -7,6 +7,7 @@
 html{
 font-size: 14px;
 font-family: "titillium web",sans-serif;
+color: #fefefe;
 }
 
 a{
@@ -38,10 +39,7 @@ padding: 20px;
 }
 
 .subforum{
-
 margin-top: 20px;
-
-
 }
 
 .subforum-title{
@@ -62,22 +60,60 @@ margin-top: 20px;
   padding: 10px;
   margin:4px;
   border-radius: 5px;
-  background-color:#111314;
+  background-color:#121411;
 }
 
+
+
+.center{
+display:flex ;
+justify-content: center ;
+align-items: center;
+}
+
+.subforum-icon i{
+font-size: 45px;
+
+}
+  /* for telefoner*/
+@media screen and (max-width: 460px){
+  .container{
+   margin: 10px;
+   padding: 10px;
+  }
+
+  .subforum-row{
+    display: grid;
+    grid-template-columns: 25% 75% ;
+    grid-template-rows: 65% 35%;
+   }
+   
+  
+}
+/* for lit støre skjermer*/
+@media screen and (max-width: 460px) and (max-width: 1024px){
+  .container{
+    margin: 10px;
+    padding: 10px;
+   }
+
+
+}
+
+/* home page logo and top*/
+.top{
+left: 80%;
+position: relative;
+width: 110px;
+font-size: 23px;
+display: flex;
+}
+
+/*landing page style*/
 #tagline{
 color: green;
-margin-left: 42px;
+margin-left: 28px;
 margin-bottom: -20px;
-}
-
-.top{
-    float: right;
-    position: absolute;
-    bottom: 72%;
-    right: 1px;
-    cursor: pointer;
-    width: 19%;
 }
 
 #win{
