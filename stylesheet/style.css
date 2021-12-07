@@ -138,6 +138,11 @@ margin-left: 28px;
 margin-bottom: -20px;
 }
 
+.my-5{
+color: yellowgreen;
+
+}
+
 #win{
   position: absolute;
   background-color: rgb(15, 15, 56);
