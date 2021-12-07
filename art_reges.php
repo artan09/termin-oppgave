@@ -113,6 +113,19 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
         p{
             color: white;
         }
+
+        h2{
+           color: white;
+
+        }
+        a{
+
+            color: green;
+        }
+        .btn-primary{
+
+        background-color: green;
+        }
     </style>
 </head>
 <body>

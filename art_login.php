@@ -4,7 +4,7 @@ session_start();
  
 // Check if the user is already logged in, if yes then redirect him to welcome page
 if(isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] === true){
-    header("location: main_page.html");
+    header("location: main_page.php");
     exit;
 }
  
@@ -104,6 +104,19 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
         }
         p{
             color: white;
+        }
+
+        h2{
+           color: white;
+
+        }
+        a{
+
+        color: green;
+        }
+        .btn-primary{
+
+           background-color: green;
         }
     </style>
 </head>

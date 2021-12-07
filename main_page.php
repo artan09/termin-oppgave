@@ -22,15 +22,12 @@
             <div class="subforum">
                 <div class="subforum-title">
                     <h1>general information</h1>
-                    <div class="top-nav">
-                    <a href="logout.php">
-                    <b>logout</b>
-                    </a>
-                    <p>need to reset your password? <a href="reset-password.php">you can do it here</a>.</p>
-                    </div>
+                        <a href="logout.php">
+                        <b>logout</b>
+                        </a>
+                        <p>need to reset your password? <a href="reset-password.php">you can do it here</a></p>
                 </div>
 
-                
                 <div class="subforum-row">
                     <div class="subforum-icon subforum-column center ">
                         <i class="fa fa-car"></i>
