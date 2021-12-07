@@ -134,6 +134,11 @@ color: rgb(145, 138, 153);
 
 }
 
+.reset{
+
+position: relative;
+right: 50px;
+}
 /*landing page style*/
 #tagline{
 color: rgb(128, 0, 0);

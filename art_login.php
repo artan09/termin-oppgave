@@ -126,7 +126,6 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
                 <input type="reset" class="btn btn-secondary ml-2" value="Reset">
             </div>
             <p>Don't have an account? <a href="art_reges.php">Sign up now</a>.</p>
-            <p>need to reset your password? <a href="reset-password.php">you can do it here</a>.</p>
         </form>
     </div>
 </body>
