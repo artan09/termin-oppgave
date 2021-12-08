@@ -22,7 +22,7 @@ font-weight: bolder;
 }
 
 body{
-  background-image: url(../bilder/header-bilde.jpg);
+  background-image: url(../bilder/dark-grey-6.jpg);
   height: 150vh;
   background-size: cover;
   background-position: center;
@@ -60,7 +60,7 @@ margin-top: 20px;
   padding: 10px;
   margin:4px;
   border-radius: 5px;
-  background-color:#121411;
+  background-color:#212220;
 }
 
 
