@@ -30,7 +30,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
              <p id="tagline"> the sea den</p>
             </a>
         </div>
-     
+      <!--subfroum html-->
         <div class="container">
             <div class="subforum">
                 <div class="subforum-title">
@@ -40,7 +40,6 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
                         </a>
                         <p>need to reset your password? <a href="reset-password.php">you can do it here</a></p>
                 </div>
-
                 <div class="subforum-row">
                     <div class="subforum-icon subforum-column center ">
                         <i class="fa fa-car"></i>
@@ -58,8 +57,102 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
                         on the <small> 22 dec 2021</small>
                     </div>
                 </div>
-            </div>
+           
 
+            <div class="subforum-row">
+                    <div class="subforum-icon subforum-column center ">
+                        <i class="fa fa-car"></i>
+                    </div>
+                    <div class="subforum-description  subforum-column">
+                        <h1><a href="">description title:</a></h1>
+                        <p> description content: whatever</p>
+                    </div>
+                    <div class="suforum-stats subforum-column">
+                        <span> 24 posts| 15 threds</span>
+                    </div>
+                    <div class="subfourm-info subforum-column">
+                        <b><a href="">last post</a></b> by <a href="">forumuser</a> 
+                        <br>
+                        on the <small> 22 dec 2021</small>
+                    </div>
+                </div>
+                <div class="subforum-row">
+                    <div class="subforum-icon subforum-column center ">
+                        <i class="fa fa-car"></i>
+                    </div>
+                    <div class="subforum-description  subforum-column">
+                        <h1><a href="">description title:</a></h1>
+                        <p> description content: whatever</p>
+                    </div>
+                    <div class="suforum-stats subforum-column">
+                        <span> 24 posts| 15 threds</span>
+                    </div>
+                    <div class="subfourm-info subforum-column">
+                        <b><a href="">last post</a></b> by <a href="">forumuser</a> 
+                        <br>
+                        on the <small> 22 dec 2021</small>
+                    </div>
+                </div>
+             </div>    
+            <!--more-->
+            <div class="subforum">
+                <div class="subforum-title">
+                    <h1>general information</h1>
+                </div>
+                <div class="subforum-row">
+                    <div class="subforum-icon subforum-column center ">
+                        <i class="fa fa-car"></i>
+                    </div>
+                    <div class="subforum-description  subforum-column">
+                        <h1><a href="">description title:</a></h1>
+                        <p> description content: whatever</p>
+                    </div>
+                    <div class="suforum-stats subforum-column">
+                        <span> 24 posts| 15 threds</span>
+                    </div>
+                    <div class="subfourm-info subforum-column">
+                        <b><a href="">last post</a></b> by <a href="">forumuser</a> 
+                        <br>
+                        on the <small> 22 dec 2021</small>
+                    </div>
+                </div>
+            
+
+            <div class="subforum-row">
+                    <div class="subforum-icon subforum-column center ">
+                        <i class="fa fa-car"></i>
+                    </div>
+                    <div class="subforum-description  subforum-column">
+                        <h1><a href="">description title:</a></h1>
+                        <p> description content: whatever</p>
+                    </div>
+                    <div class="suforum-stats subforum-column">
+                        <span> 24 posts| 15 threds</span>
+                    </div>
+                    <div class="subfourm-info subforum-column">
+                        <b><a href="">last post</a></b> by <a href="">forumuser</a> 
+                        <br>
+                        on the <small> 22 dec 2021</small>
+                    </div>
+                </div>
+                <div class="subforum-row">
+                    <div class="subforum-icon subforum-column center ">
+                        <i class="fa fa-car"></i>
+                    </div>
+                    <div class="subforum-description  subforum-column">
+                        <h1><a href="">description title:</a></h1>
+                        <p> description content: whatever</p>
+                    </div>
+                    <div class="suforum-stats subforum-column">
+                        <span> 24 posts| 15 threds</span>
+                    </div>
+                    <div class="subfourm-info subforum-column">
+                        <b><a href="">last post</a></b> by <a href="">forumuser</a> 
+                        <br>
+                        on the <small> 22 dec 2021</small>
+                    </div>
+                </div>
+            </div>    
             <!--more-->
             <div class="subforum">
                 <div class="subforum-title">
@@ -83,10 +176,6 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
                     </div>
                 </div>
             </div>
-
-            
-            <!--more-->
-
             <!--more-->
 
             <!--more-->
