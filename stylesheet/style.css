@@ -63,7 +63,9 @@ margin-top: 20px;
   background-color:#212220;
 }
 
-
+.subforum-description *{
+margin-block: 0;
+}
 
 .center{
 display:flex ;
@@ -140,7 +142,6 @@ margin-bottom: -20px;
 
 .my-5{
 color: yellowgreen;
-
 }
 
 #win{
