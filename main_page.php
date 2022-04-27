@@ -58,7 +58,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
                     </div>
                 </div>
            
-        
+               <hr class="subforum-devider"> 
             <div class="subforum-row">
                     <div class="subforum-icon subforum-column center ">
                         <i class="fa fa-car"></i>
@@ -76,6 +76,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
                         on the <small> 22 dec 2021</small>
                     </div>
                 </div>
+                <hr class="subforum-devider"> 
                 <div class="subforum-row">
                     <div class="subforum-icon subforum-column center ">
                         <i class="fa fa-car"></i>
@@ -93,6 +94,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
                         on the <small> 22 dec 2021</small>
                     </div>
                 </div>
+                <hr class="subforum-devider"> 
              </div>    
             <!--more-->
             <div class="subforum">
@@ -116,7 +118,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
                         on the <small> 22 dec 2021</small>
                     </div>
                 </div>
-            
+                <hr class="subforum-devider"> 
 
             <div class="subforum-row">
                     <div class="subforum-icon subforum-column center ">
@@ -135,6 +137,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
                         on the <small> 22 dec 2021</small>
                     </div>
                 </div>
+                <hr class="subforum-devider"> 
                 <div class="subforum-row">
                     <div class="subforum-icon subforum-column center ">
                         <i class="fa fa-car"></i>
@@ -152,6 +155,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
                         on the <small> 22 dec 2021</small>
                     </div>
                 </div>
+                <hr class="subforum-devider"> 
             </div>    
             <!--more-->
             <div class="subforum">
@@ -175,6 +179,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
                         on the <small> 22 dec 2021</small>
                     </div>
                 </div>
+                <hr class="subforum-devider"> 
                 <div class="subforum-row">
                     <div class="subforum-icon subforum-column center ">
                         <i class="fa fa-car"></i>
@@ -192,6 +197,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
                         on the <small> 22 dec 2021</small>
                     </div>
                 </div>
+                <hr class="subforum-devider"> 
                 <div class="subforum-row">
                     <div class="subforum-icon subforum-column center ">
                         <i class="fa fa-car"></i>

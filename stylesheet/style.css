@@ -77,6 +77,15 @@ align-items: center;
 font-size: 45px;
 
 }
+
+
+.subforum-devider{
+
+
+  
+}
+
+
   /* for telefoner*/
 @media screen and (max-width: 460px){
   .container{
