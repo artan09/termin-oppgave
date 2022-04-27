@@ -58,7 +58,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
                     </div>
                 </div>
            
-            <hr class="subforum-devider">
+        
             <div class="subforum-row">
                     <div class="subforum-icon subforum-column center ">
                         <i class="fa fa-car"></i>
@@ -181,6 +181,11 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
             <!--more-->
 
             <!--more-->
+
+
+
+
+
        </div>
 
 
