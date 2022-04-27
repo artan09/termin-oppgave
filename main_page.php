@@ -175,17 +175,41 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
                         on the <small> 22 dec 2021</small>
                     </div>
                 </div>
+                <div class="subforum-row">
+                    <div class="subforum-icon subforum-column center ">
+                        <i class="fa fa-car"></i>
+                    </div>
+                    <div class="subforum-description  subforum-column">
+                        <h1><a href="">description title:</a></h1>
+                        <p> description content: whatever</p>
+                    </div>
+                    <div class="suforum-stats subforum-column">
+                        <span> 24 posts| 15 threds</span>
+                    </div>
+                    <div class="subfourm-info subforum-column">
+                        <b><a href="">last post</a></b> by <a href="">forumuser</a> 
+                        <br>
+                        on the <small> 22 dec 2021</small>
+                    </div>
+                </div>
+                <div class="subforum-row">
+                    <div class="subforum-icon subforum-column center ">
+                        <i class="fa fa-car"></i>
+                    </div>
+                    <div class="subforum-description  subforum-column">
+                        <h1><a href="">description title:</a></h1>
+                        <p> description content: whatever</p>
+                    </div>
+                    <div class="suforum-stats subforum-column">
+                        <span> 24 posts| 15 threds</span>
+                    </div>
+                    <div class="subfourm-info subforum-column">
+                        <b><a href="">last post</a></b> by <a href="">forumuser</a> 
+                        <br>
+                        on the <small> 22 dec 2021</small>
+                    </div>
+                </div>
             </div>
-            <!--more-->
-
-            <!--more-->
-
-            <!--more-->
-
-
-
-
-
        </div>
 
 
