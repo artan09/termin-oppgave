@@ -21,6 +21,18 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
     <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital@1&display=swap" rel="stylesheet">
 </head>
 <body>
+    <header>
+        <div class="navbar">
+            <nav class="navigation">
+                <ul class="nav-list">
+
+                </ul>
+            </nav>
+        </div>
+
+    </header>
+
+
     <div class="welcome">
     <h1 class="my-5">Hi, <b><?php echo htmlspecialchars($_SESSION["username"]); ?></b>. Welcome to our site.</h1>
     </div>
@@ -96,6 +108,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
                 </div>
                 <hr class="subforum-devider"> 
              </div>    
+             
             <!--more-->
             <div class="subforum">
                 <div class="subforum-title">
