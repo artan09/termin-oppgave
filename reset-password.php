@@ -75,9 +75,30 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     <meta charset="UTF-8">
     <title>Reset Password</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <style>
-        body{ font: 14px sans-serif; }
+    <style>  
+     body{ font: 14px sans-serif; 
+        background-image: url(bilder/header-bilde.jpg);
+        }
         .wrapper{ width: 360px; padding: 20px; }
+        label{
+            color: white;
+        }
+        p{
+            color: white;
+        }
+
+        h2{
+           color: white;
+
+        }
+        a{
+
+        color: green;
+        }
+        .btn-primary{
+
+           background-color: green;
+        }
     </style>
 </head>
 <body>
