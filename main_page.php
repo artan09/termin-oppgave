@@ -25,7 +25,15 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
         <div class="navbar">
             <nav class="navigation">
                 <ul class="nav-list">
-
+                    <li class="nav-item">
+                        <a href="#">home </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#">forum </a>
+                    </li> 
+                    <li class="nav-item">
+                        <a href="#">detail</a>
+                    </li>             
                 </ul>
             </nav>
         </div>
