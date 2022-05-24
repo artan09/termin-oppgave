@@ -23,8 +23,9 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
 <body>
     <header>
         <div class="navbar">
-            <nav class="navigation">
+            <nav class="navigation hide" id="navigation">
                 <ul class="nav-list">
+                    <span class="close-icon" onclick="showiconbar()"><i class="fa fa-close"></i></span>
                     <li class="nav-item">
                         <a href="#">home </a>
                     </li>
@@ -36,8 +37,9 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
                     </li>             
                 </ul>
             </nav>
+            <a href="#" class="bar-icon" id="iconBar" onclick="hideiconbar()"><i class="fa fa-bars"></i></a>
+            <div class="brand">the sea den</div>
         </div>
-
     </header>
 
 
@@ -241,5 +243,5 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
 
 
 </body>
-<script src="script.js"></script>
+<script src="main.js"></script>
 </html>
