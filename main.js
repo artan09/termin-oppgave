@@ -14,3 +14,4 @@ function showiconbar(){
     iconBar.setAttribute("style", "display:block;");
     navigation.classList.add("hide");
 }
+

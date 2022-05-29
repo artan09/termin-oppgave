@@ -26,19 +26,25 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
             <nav class="navigation hide" id="navigation">
                 <ul class="nav-list">
                     <span class="close-icon" onclick="showiconbar()"><i class="fa fa-close"></i></span>
-                    <li class="nav-item">
-                        <a href="#">home </a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#">forum </a>
-                    </li> 
-                    <li class="nav-item">
-                        <a href="#">detail</a>
-                    </li>             
+                    <li class="nav-item"><a href="main_page.php">Forums</a></li>
+                    <li class="nav-item"><a href="post_page.php">Posts</a></li> 
+                    <li class="nav-item"><a href="faq_page.php">faq</a></li>        
                 </ul>
             </nav>
-            <a href="#" class="bar-icon" id="iconBar" onclick="hideiconbar()"><i class="fa fa-bars"></i></a>
+                <a href="#" class="bar-icon" id="iconBar" onclick="hideiconbar()"><i class="fa fa-bars"></i></a>
             <div class="brand">the sea den</div>
+        </div>
+        <!--search box-->
+        <div class="search-box">
+            <div>
+                <select name="" id="">
+                    <option value="Everything">Everything</option>
+                    <option value="Titles">Titles</option>
+                    <option value="Descriptions">Descriptions</option>
+                </select>
+                <input type="text" name="q" placeholder="search ...">
+                <button><i class="fa fa-search"></i></button>
+            </div>
         </div>
     </header>
 
@@ -47,7 +53,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
     <h1 class="my-5">Hi, <b><?php echo htmlspecialchars($_SESSION["username"]); ?></b>. Welcome to our site.</h1>
     </div>
         <div class="top">
-            <a href="">
+            <a href="main_page.php">
              <img src="bilder\logo-22.svg" width="150px" height="150px"> 
              <p id="tagline"> the sea den</p>
             </a>
@@ -241,7 +247,21 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
             </div>
        </div>
 
-
+       <!--forum info-->
+    
+       <div class="forum-info">
+            <div class="chart">
+                the sea den - stats &nbsp;<i class="fa fa-bar-chart"></i>
+            </div>
+            <div>
+                    <span><u>5,369</u>  posts in <u>1,210</u> topics by <u>45,210</u> users </span><br>
+                    <span>Latest post: <b><a href="#">post</a></b> on 30 may 2021 by <a href="#">mylo</a> </span>
+            </div>
+       </div>
+       
+  <footer>
+      <span>&copy; &nbsp; artån ajeti | all rights reserved</span>
+  </footer>
 </body>
 <script src="main.js"></script>
 </html>
